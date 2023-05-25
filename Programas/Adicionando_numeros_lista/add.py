@@ -14,3 +14,21 @@ pares2 = [numero for numero in numeros if numero % 2 == 0]
 #elevando os numeros ao quadrado usando a segunda forma
 
 quadrado = [numero ** 2 for numero in numeros]
+
+
+def sum_list(l):
+    sum = 0
+    for x in l:
+        sum += x
+    return sum
+
+#l = [1, 2, 3, 4, 5]
+#sum_list(l)
+
+l = list(map(int, input("Enter numbers separated by spaces: ").split()))
+
+#print(sum_list(l))
+
+numeros = []
+
+numeros.append(l)
